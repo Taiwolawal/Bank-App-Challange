@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout SCM') {
             steps {
                 // Checkout the source code from version control (e.g., Git)
-                git branch: 'main', url: 'https://github.com/Taiwolawal/Bank-App-Challange.git'
+                git branch: 'Master', url: 'https://github.com/Taiwolawal/Bank-App-Challange.git'
                 sh 'git --version'
                 sh 'git branch'
                 
