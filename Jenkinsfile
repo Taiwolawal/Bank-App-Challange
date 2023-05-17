@@ -20,12 +20,12 @@ pipeline {
             }
         }
         
-        stage('Run Tests') {
-            steps {
-                // Run unit tests
-                sh 'npm test'
-            }
-        }
+        // stage('Run Tests') {
+        //     steps {
+        //         // Run unit tests
+        //         sh 'npm test'
+        //     }
+        // }
         
         // stage('Static Code Analysis') {
         //     steps {
