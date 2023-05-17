@@ -12,19 +12,19 @@ pipeline {
             }
         }
         
-        // stage('Install Dependencies') {
-        //     steps {
-        //         // Install Node.js dependencies using npm
-        //         sh 'npm install'
-        //     }
-        // }
+        stage('Install Dependencies') {
+            steps {
+                // Install Node.js dependencies using npm
+                sh 'npm install'
+            }
+        }
         
-        // stage('Run Tests') {
-        //     steps {
-        //         // Run unit tests
-        //         sh 'npm test'
-        //     }
-        // }
+        stage('Run Tests') {
+            steps {
+                // Run unit tests
+                sh 'npm test'
+            }
+        }
         
         // stage('Static Code Analysis') {
         //     steps {
